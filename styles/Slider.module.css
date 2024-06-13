@@ -1,0 +1,20 @@
+img.slider {
+    border-radius: 50px;
+    display: block;
+    width: 100%;
+}
+
+.forslider {
+    margin: 5% 3%;
+}
+
+img.slidertest {
+    border-radius: 50px;
+    display: inline-flex;
+    width: 25%;
+}
+
+.forcarousel {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}

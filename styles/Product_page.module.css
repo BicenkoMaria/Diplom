@@ -1,0 +1,81 @@
+div.prpage {
+    margin: 0 10%;
+    
+}
+
+div.column_left {
+    margin-top: 3%;
+    width: 50%;
+    float: left;
+}
+
+div.for_img {
+    display: grid;
+    column-gap: 3%;
+    row-gap: 0.8%;
+    grid-row: repeat(3, 1fr);
+}
+
+
+div.column_right {
+    margin-top: 3%;
+    width: 45%;
+    float: right;
+}
+
+div.end {
+    height: 3vh;
+    clear: both;
+}
+
+.big {
+    border-radius: 0%;
+    height: 60vh;
+    width: fit-content;
+    grid-row: 1 / 4;
+    grid-column: 2 / 3;
+}
+
+.small {
+    border-radius: 0%;
+    height: 19vh;
+    width: fit-content;
+}
+
+h2.page {
+    margin-bottom: 10%;
+}
+
+h4.page {
+    margin-bottom: 7%;
+}
+
+span.property {
+    opacity: 60%;
+    margin-right: 0.5vw;
+}
+
+div.property {
+    margin-top: 7%;
+    line-height: 75%;
+}
+
+.group {
+    display: flex;
+
+}
+
+button.buy {
+    font-size: 1.5em;
+    padding: 0.3vw 12vh;
+    border-radius: 10px;
+    background-color: #C489FF;
+}
+
+button.love {
+    margin-left: 5%;
+    height: 7vh;
+    width: 3.5vw;
+    border-radius: 10px;
+    background-color: #C489FF;
+}

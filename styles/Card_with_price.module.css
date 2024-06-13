@@ -1,0 +1,41 @@
+a.card {
+    text-decoration: none;
+}
+
+div.card.element {
+    display: inline-block;
+}
+
+.card_img {
+    height: 25vh;
+    width: fit-content;
+    border-radius: 15px;
+    display: block;
+}
+
+.category {
+    display: block;
+    opacity: 75%;
+    font-size: 0.85rem;
+    text-align: center;
+    width: 69%;
+    color: #242424;
+}
+
+.name {
+    display: block;
+    text-align: center;
+    width: 69%;
+    color: #242424;
+}
+
+.price {
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    display: block;
+    text-align: center;
+    /*width: 79%; нормальное отображение вне каталога*/
+    width: 69%;
+    font-size: 0.85rem;
+    color: #242424;
+}

@@ -1,0 +1,38 @@
+.backet_card {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.card_img {
+    border-radius: 25px;
+    height: 30vh;
+    width: fit-content;
+}
+
+div.in {
+    display: block;
+    margin: 6% 10%;
+}
+
+button.count {
+    width: 25px; height: 25px; 
+    background-color: #fffafa; 
+    border-radius: 50%; 
+    border: #242424 1px solid; 
+    text-align:center;
+    margin: 0 2%;
+}
+
+span.count {
+    padding-top: 50%;
+    padding-bottom: 50%;
+    font-size: 1em;
+}
+
+img.icons {
+    height: 5vh;
+    width: fit-content;
+    margin-top: 11%;
+    margin-right: 5%;
+}

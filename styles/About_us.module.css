@@ -1,0 +1,57 @@
+div.abus {
+    margin: 0 10%;
+}
+
+div.clearfix {
+    clear: both;
+}
+  
+h1.class {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+img.abus {
+    border-radius: 8%;
+    height: 40vh;
+    width: fit-content;
+    margin-right: 3%;
+}
+
+img.first {
+    margin-right: 3%;
+    border-radius: 8%;
+    height: 70vh;
+    width: fit-content;
+    float: left;
+}
+
+div.abus_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+div.in {
+    display: block;
+    padding: 0;
+}
+
+span.nameup {
+    display: block;
+    text-align: center;
+    width: 19vw;
+    margin-bottom: 3%;
+}
+
+span.namedown {
+    display: block;
+    text-align: center;
+    width: 19vw;
+    margin-top: 3%;
+}
+
+div.paydel {
+    margin-bottom: 4%;
+}

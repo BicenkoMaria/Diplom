@@ -1,0 +1,65 @@
+.catalog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    float: right;
+    width: 70%;
+    margin-right: 5%;
+    justify-content: space-around;
+}
+
+.filters {
+    float: left;
+    margin-left: 10%;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    
+}
+
+div.categories a {
+    color: #242424;
+    text-decoration: none;
+}
+
+div.categories a:hover {
+    color: #C489FF;
+}
+/*жирность работает, а цвет - нет*/
+a.here {
+    color: red; 
+    font-weight: 500;
+}
+
+.sort {
+    padding-left: 9.5%;
+    padding-bottom: 2.5%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+span.other {
+    padding: 0.5% 0;
+}
+
+span.sorting {
+    padding: 0.5% 1%;
+    border-radius: 10px;
+}
+
+span.sorting:hover {
+    background-color: #C489FF;
+    
+}
+
+a.link {
+    color: #242424;
+    text-decoration: none;
+}
+
+a.link:hover {
+    color: #FFFafa;
+}

@@ -1,0 +1,31 @@
+div.qa {
+    margin: 5% 10%;
+}
+
+h1.class {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.accordion-button {
+    border-radius: 5px;
+    border: #C489FF 1px solid;
+}
+
+.accordion-button:hover {
+    background-color: #C489FF;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #242424;
+    background-color: #C489FF;
+}
+
+.accordion-item {
+    margin-bottom: 2%;
+    border: none;
+}
