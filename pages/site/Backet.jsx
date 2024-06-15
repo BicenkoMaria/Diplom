@@ -13,7 +13,7 @@ function Backet() {
 
             <div className={styles.left}>
                 <Backet_card />
-                <Backet_card />
+                
             </div>
             
 

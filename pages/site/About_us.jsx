@@ -3,8 +3,8 @@ import Image from "next/image";
 import styles from "@/styles/About_us.module.css";
 import img1 from "@/public/about_us.jpg";
 import img2 from "@/public/autumn_postcards.jpg";
-import img3 from "@/public/magic_stickers.jpg";
-import img4 from "@/public/flovers_bookmars.jpg";
+import img3 from "@/public/sticker.jpg";
+import img4 from "@/public/flovers_bookmarks.jpg";
 
 function About_us() {
     return(

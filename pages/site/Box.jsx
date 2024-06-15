@@ -21,24 +21,24 @@ function Box () {
             >
                 <Tab eventKey="home" title="Home">
                     <p>
-                        Шаг №1 - выбериите размер боокса
+                        Шаг №1 - выбериите размер бокса
                     </p>
                     <label className={styles.in}>
                         <input type="radio" name="question"></input>
                         <span className={styles.radio}>Крошечный (5 предметов)</span>
-                    </label>
+                    </label><br/>
                     <label className={styles.in}>
                         <input type="radio" name="question"></input>
                         <span className={styles.radio}>Маленький (7 предметов)</span>
-                    </label>
+                    </label><br/>
                     <label className={styles.in}>
                         <input type="radio" name="question"></input>
                         <span className={styles.radio}>Средний (10 предметов)</span>
-                    </label>
+                    </label><br/>
                     <label className={styles.in}>
                         <input type="radio" name="question"></input>
                         <span className={styles.radio}>Большой (14 предметов)</span>
-                    </label>
+                    </label><br/>
                     <label className={styles.in}>
                         <input type="radio" name="question"></input>
                         <span className={styles.radio}>Огромный (20 предметов)</span>
@@ -66,6 +66,12 @@ function Box () {
                 </Tab>
 
                 <Tab eventKey="profile2" title="Profile">
+                    <span>Имя:</span><br/>
+                    <input type="text" name="name" className={styles.in}></input><br/>
+                    <span>Фамилия:</span><br/>
+                    <input type="text" name="surname" className={styles.in}></input><br/>
+                    <span>Email:</span><br/>
+                    <input type="email" name="email" className={styles.in}></input><br/>
                     <button>Оставить заявку</button> 
                 </Tab>
 

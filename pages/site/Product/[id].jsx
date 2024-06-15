@@ -57,17 +57,17 @@ export async function generateStaticParams() {
     const product = await fetch('http://localhost:3000/api/catalog').then((res) => res.json())
    
     return product.map((product) => ({
-      product,
+      id: product,
     }))
   }
 */
-function Product_page({params}) {
-    console.log(params.id);
+function Product_page() {
+
     return(
         /*<Test post={post}/>*/
         
         <div className={styles.prpage}>
-            <h1>{product.name}</h1>
+            
             <div>
                 <span>Каталог &gt; </span>
                 <span>Открытки &gt; </span>
@@ -107,18 +107,73 @@ function Product_page({params}) {
             <div className={styles.end}>
             </div>  
 
-                 
+            <Cards_Carousel 
+                text="Вам может понравиться"
+                elements={elements}/>
         </div>
         
     );
 }
 
 export default Product_page;
-/*
-<Cards_Carousel /> 
-            <Cards_Carousel />  
-*/
 
-/*
 
-*/
+const elements = [
+    {
+        id: 1,
+        img: "/postcards_summer1.jpg",
+        category: "Набор открыток",
+        title: "«Яркое лето»",
+        price: "400 руб."
+    },
+    {
+        id: 2,
+        img: "/postcards_summer1.jpg",
+        category: "Набор открыток",
+        title: "«Яркое лето»",
+        price: "400 руб."
+    },
+    {
+        id: 3,
+        img: "/postcards_summer1.jpg",
+        category: "Набор открыток",
+        title: "«Яркое лето»",
+        price: "400 руб."
+    },
+    {
+        id: 4,
+        img: "/postcards_summer1.jpg",
+        category: "Набор открыток",
+        title: "«Яркое лето»",
+        price: "400 руб."
+    },
+    {
+        id: 5,
+        img: "/postcards_summer1.jpg",
+        category: "Набор открыток",
+        title: "«Яркое лето»",
+        price: "400 руб."
+    },
+    {
+        id: 6,
+        img: "/postcards_summer1.jpg",
+        category: "Набор открыток",
+        title: "«Яркое лето»",
+        price: "400 руб."
+    },
+    {
+        id: 7,
+        img: "/postcards_summer1.jpg",
+        category: "Набор открыток",
+        title: "«Яркое лето»",
+        price: "400 руб."
+    },
+    {
+        id: 8,
+        img: "/postcards_summer1.jpg",
+        category: "Набор открыток",
+        title: "«Яркое лето»",
+        price: "400 руб."
+    }
+  
+  ]

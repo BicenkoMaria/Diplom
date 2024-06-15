@@ -10,7 +10,7 @@ function Footer() {
             <Image className={styles.logo} src={logo}/>
 
             <div className={styles.grid}>
-                <Link href="/" className={styles.gridel}>Каталог</Link>
+                <Link href="/site/Catalog" className={styles.gridel}>Каталог</Link>
                 <Link href="/site/About_us" className={styles.gridel}>О нас</Link>
                 <span className={styles.gridel}>Контакты:</span>
                 <span className={styles.gridel}>Мы в соц сетях:</span>

@@ -110,59 +110,59 @@ export default function Home(product) {
 const elements = [
   {
       id: 1,
-      img: "/fantasy_postcards.jpg",
+      img: "/postcards_summer1.jpg",
       category: "Набор открыток",
-      title: "«Фантастические пейзажи»",
-      price: "450 руб."
+      title: "«Яркое лето»",
+      price: "400 руб."
   },
   {
       id: 2,
-      img: "/fantasy_postcards.jpg",
+      img: "/postcards_summer1.jpg",
       category: "Набор открыток",
-      title: "«Фантастические пейзажи»",
-      price: "450 руб."
+      title: "«Яркое лето»",
+      price: "400 руб."
   },
   {
       id: 3,
-      img: "/fantasy_postcards.jpg",
+      img: "/postcards_summer1.jpg",
       category: "Набор открыток",
-      title: "«Фантастические пейзажи»",
-      price: "450 руб."
+      title: "«Яркое лето»",
+      price: "400 руб."
   },
   {
       id: 4,
-      img: "/fantasy_postcards.jpg",
+      img: "/postcards_summer1.jpg",
       category: "Набор открыток",
-      title: "«Фантастические пейзажи»",
-      price: "450 руб."
+      title: "«Яркое лето»",
+      price: "400 руб."
   },
   {
       id: 5,
-      img: "/fantasy_postcards.jpg",
+      img: "/postcards_summer1.jpg",
       category: "Набор открыток",
-      title: "«Фантастические пейзажи»",
-      price: "450 руб."
+      title: "«Яркое лето»",
+      price: "400 руб."
   },
   {
       id: 6,
-      img: "/fantasy_postcards.jpg",
+      img: "/postcards_summer1.jpg",
       category: "Набор открыток",
-      title: "«Фантастические пейзажи»",
-      price: "450 руб."
+      title: "«Яркое лето»",
+      price: "400 руб."
   },
   {
       id: 7,
-      img: "/fantasy_postcards.jpg",
+      img: "/postcards_summer1.jpg",
       category: "Набор открыток",
-      title: "«Фантастические пейзажи»",
-      price: "450 руб."
+      title: "«Яркое лето»",
+      price: "400 руб."
   },
   {
       id: 8,
-      img: "/fantasy_postcards.jpg",
+      img: "/postcards_summer1.jpg",
       category: "Набор открыток",
-      title: "«Фантастические пейзажи»",
-      price: "450 руб."
+      title: "«Яркое лето»",
+      price: "400 руб."
   }
 
 ]

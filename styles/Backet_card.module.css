@@ -1,7 +1,10 @@
 .backet_card {
     width: 100%;
     display: flex;
-    margin-bottom: 5%;
+}
+
+.backet_card:last-of-type {
+    margin-bottom: 10%;
 }
 
 .card_img {

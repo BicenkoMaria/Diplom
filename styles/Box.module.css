@@ -7,14 +7,11 @@ h1.h1 {
 }
 
 div.label {
-    display: flex;
-    flex-direction: column;
-    gap: 2%;
+
     margin-top: 5%;
     padding: 4%;
     border: #C489FF 1px solid;
     border-radius: 25px;
-    width: 80%;
     background-color: #FFFAFA;
 }
 
@@ -24,6 +21,7 @@ label.in {
 }
 
 span.radio {
+    width: 100%;
     margin-left: 1%;
 }
 
