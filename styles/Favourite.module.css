@@ -1,0 +1,13 @@
+div.main {
+    margin: 0 7% 10%;
+}
+
+.h1 {
+    margin-left: 2%;
+}
+
+.product {
+    margin-top: 2.5%;
+    display: flex;
+    gap: 5%;
+}

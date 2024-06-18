@@ -15,57 +15,86 @@ function Box () {
             </p>
             <div className={styles.label}>
             <Tabs
-                defaultActiveKey="home"
+                defaultActiveKey="one"
                 id="uncontrolled-tab-example"
                 className="mb-4"
             >
-                <Tab eventKey="home" title="Home">
+                <Tab eventKey="one" title="Шаг №1">
                     <p>
                         Шаг №1 - выбериите размер бокса
                     </p>
                     <label className={styles.in}>
                         <input type="radio" name="question"></input>
-                        <span className={styles.radio}>Крошечный (5 предметов)</span>
+                        <span>Крошечный (5 предметов)</span>
                     </label><br/>
                     <label className={styles.in}>
                         <input type="radio" name="question"></input>
-                        <span className={styles.radio}>Маленький (7 предметов)</span>
+                        <span>Маленький (7 предметов)</span>
                     </label><br/>
                     <label className={styles.in}>
                         <input type="radio" name="question"></input>
-                        <span className={styles.radio}>Средний (10 предметов)</span>
+                        <span>Средний (10 предметов)</span>
                     </label><br/>
                     <label className={styles.in}>
                         <input type="radio" name="question"></input>
-                        <span className={styles.radio}>Большой (14 предметов)</span>
+                        <span>Большой (14 предметов)</span>
                     </label><br/>
                     <label className={styles.in}>
                         <input type="radio" name="question"></input>
-                        <span className={styles.radio}>Огромный (20 предметов)</span>
+                        <span>Огромный (20 предметов)</span>
                     </label>
                 </Tab>
                 
-                <Tab eventKey="profile" title="Profile">
-                    Tab content for Profile
+                <Tab eventKey="two" title="Шаг №2">
+                    Шаг №2 - выберите желаемые товары*
+                    <br/>
+                    <label className={styles.in}>
+                        <input type="checkbox" name="категория" value="Открытки" />
+                        Открытки
+                    </label> <br/>
+
+                    <label className={styles.in}>
+                        <input type="checkbox" name="категория" value="Закладки" />
+                        Закладки
+                    </label> <br/>
+
+                    <label className={styles.in}>
+                        <input type="checkbox" name="категория" value="Брелоки" />
+                        Брелоки
+                    </label> <br/>
+
+                    <label className={styles.in}>
+                        <input type="checkbox" name="категория" value="Стикеры" />
+                        Стикеры
+                    </label> <br/>
+
+                    <label className={styles.in}>
+                        <input type="checkbox" name="категория" value="Прочее" />
+                        Прочее
+                    </label> <br/>
+
+                    <label className={styles.in}>
+                        <input type="checkbox" name="категория" value="Любой" />
+                        Не имеет значения
+                    </label> <br/>
+
+                    * наполнение бокса зависит от размера, но мы обязательно постараемся учесть ваши предпочтения
                 </Tab>
 
-                <Tab eventKey="contact" title="Contact">
+                <Tab eventKey="three" title="Шаг №3">
                     <p>
-                        Шаг №2 - выберите серии товаров
+                        Шаг №3 - выберите серии товаров
                     </p>
                     <>
-                        <span><input type="checkbox" /> Серия:</span>
-                        <span><input type="checkbox" /> Серия:</span>
-                        <span><input type="checkbox" /> Серия:</span>
-                        <span><input type="checkbox" /> Серия:</span>
-                        <span><input type="checkbox" /> Серия:</span>
-                        <span><input type="checkbox" /> Серия:</span>
-                        <span><input type="checkbox" /> Серия:</span>
-                        <span><input type="checkbox" /> Серия:</span>
+                        <span><input type="checkbox" /> Серия: Яркие сезоны</span><br/>
+                        <span><input type="checkbox" /> Серия: Крылья</span><br/>
+                        <span><input type="checkbox" /> Серия: Фантастика</span><br/>
+                        <span><input type="checkbox" /> Серия: Летняя (лимитированная)</span><br/>
                     </>
                 </Tab>
 
-                <Tab eventKey="profile2" title="Profile">
+                <Tab eventKey="four" title="Шаг №4">
+                    Введите ваши данные: <br/><br/>
                     <span>Имя:</span><br/>
                     <input type="text" name="name" className={styles.in}></input><br/>
                     <span>Фамилия:</span><br/>

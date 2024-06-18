@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Slider from "@/components/Slider";
 import styles from "@/styles/Home.module.css";
-import Login_form from "@/components/Login_form";
 import Cards_Carousel from "@/components/Cards_Carousel";
 import Card from "@/components/Card";
 
